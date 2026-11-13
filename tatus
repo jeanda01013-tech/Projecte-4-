@@ -1,0 +1,184 @@
+[33mcommit 8a94ce408fd356715eccb059c9d9cc4ffe745e36[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jean David <Jeanda01013@gamil.com>
+Date:   Mon Nov 9 16:12:41 2026 +0100
+
+    v
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77c4ef6[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,61 @@[m
+[32m+[m[32m# Projecte 4: "EverPia, el llarg camí del júnior"[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <img[m
+[32m+[m[32m    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"[m
+[32m+[m[32m    alt="Grupo de personas trabajando en una computadora portátil"[m
+[32m+[m[32m  />[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32mNom: Jean David Colombo[m
+[32m+[m
+[32m+[m[32mNom del company: Aitor Flamarich[m
+[32m+[m
+[32m+[m[32mNúmero de grup: 5[m
+[32m+[m
+[32m+[m[32mClasse: A[m
+[32m+[m
+[32m+[m[32mCurs: GM Sistemes Microinformàtics i Xarxes 2026-2027[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## Enunciat del projecte[m
+[32m+[m
+[32m+[m[32m[Enllaç al document del projecte](https://github.com/SMX-ProjecteIntermodular/Projecte4)[m
+[32m+[m
+[32m+[m[32m## Instruccions[m
+[32m+[m
+[32m+[m[32m1. Afegiu com a col·laboradors del vostre repositori a GitHub els professors amb tasques de revisió i avaluació. Això permetrà que puguin accedir al vostre repositori i revisar el vostre treball.[m
+[32m+[m
+[32m+[m[32m   - [Professors col·laboradors SMX 2n A](docs/profes2A.md)[m
+[32m+[m[32m   - [Professors col·laboradors SMX 2n B](docs/profes2B.md)[m
+[32m+[m
+[32m+[m[32m2. **Organització del repositori:**[m
+[32m+[m[32m   - Cada activitat ha d'estar dins d'una carpeta titulada `Tasca01`, `Tasca02`, etc.[m
+[32m+[m[32m   - Dins de cada carpeta de tasca, heu d'incloure un arxiu `README.md` amb la descripció detallada de l'activitat realitzada.[m
+[32m+[m
+[32m+[m[32m3. **Procediment de treball:**[m
+[32m+[m[32m   - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis.[m
+[32m+[m[32m   - Cada dia, abans de finalitzar la jornada, pugeu els canvis al  repositori remot a GitHub.[m
+[32m+[m[32m   - No us oblideu de fer el seguiment de les tasques al Kanban del projecte, actualitzant l'estat de cada tasca a mesura que avanceu.[m
+[32m+[m
+[32m+[m[32m## Estructura del projecte[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m
+[32m+[m[32mprojecte4/[m
+[32m+[m[32m├── README.md (aquest arxiu)[m
+[32m+[m[32m├── Tasca01/[m
+[32m+[m[32m│   └── README.md[m
+[32m+[m[32m├── Tasca02/[m
+[32m+[m[32m│   └── README.md[m
+[32m+[m[32m├── Tasca03/[m
+[32m+[m[32m│   └── README.md[m
+[32m+[m[32m└── ...[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m**Recordeu**: poseu a dins de cada carpeta de tasca un arxiu `README.md` amb la descripció detallada de l'activitat realitzada, les imatges a dins una carpeta `img` o el nom que indiqui l'enunciat en cada casa. Eviteu penjar arxius molt grans, com vídeos, millor utilitzar enllaços al núvol (Google Drive, OneDrive, etc.) si cal.[m
+[32m+[m
+[32m+[m[32m> GitHub limita la mida del repositori (carpeta `.git`) a més, arxius grans ralentitzen les operacions de sincronització i poden provocar errors.[m
+[32m+[m
+[32m+[m[32mBona sort! 🚀[m
+[1mdiff --git a/partits.ics b/partits.ics[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f02f05c[m
+[1m--- /dev/null[m
+[1m+++ b/partits.ics[m
+[36m@@ -0,0 +1,129 @@[m
+[32m+[m[32mBEGIN:VCALENDAR[m
+[32m+[m[32mVERSION:2.0[m
+[32m+[m[32mPRODID:-//FCF//Partits//CA[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261004T200000[m
+[32m+[m[32mDTEND:20261004T220000[m
+[32m+[m[32mSUMMARY:TIANA, C.C.E. "B" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261011T120000[m
+[32m+[m[32mDTEND:20261011T140000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs JUVENTUS, A.C. "B"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261017T193000[m
+[32m+[m[32mDTEND:20261017T213000[m
+[32m+[m[32mSUMMARY:MASNOU AT. "B" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261025T170000[m
+[32m+[m[32mDTEND:20261025T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs VILASSAR DALT-GIATSU, C.E. "C"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261101T170000[m
+[32m+[m[32mDTEND:20261101T190000[m
+[32m+[m[32mSUMMARY:PREMIA CLUB ESP. "A" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261108T170000[m
+[32m+[m[32mDTEND:20261108T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs MOLINOS, U.D. "B"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261111T200000[m
+[32m+[m[32mDTEND:20261111T220000[m
+[32m+[m[32mSUMMARY:MASNOU AT. "B" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261114T123000[m
+[32m+[m[32mDTEND:20261114T143000[m
+[32m+[m[32mSUMMARY:CERDANYOLA MATARO ASSOC.ESP.LL  "A" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261122T170000[m
+[32m+[m[32mDTEND:20261122T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs JOVENTUT TEIA CLUB FUTBOL "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261213T170000[m
+[32m+[m[32mDTEND:20261213T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs ATLÈTIC VILASSANES, C.F.  "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20261220T170000[m
+[32m+[m[32mDTEND:20261220T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs ARGENTONA, C.F. "C"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270109T180000[m
+[32m+[m[32mDTEND:20270109T200000[m
+[32m+[m[32mSUMMARY:LA LLANTIA, A.D "A" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270117T170000[m
+[32m+[m[32mDTEND:20270117T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs FUNDACIÓ ESPORTIVA MONTGAT "B"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270124T170000[m
+[32m+[m[32mDTEND:20270124T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs TIANA, C.C.E. "B"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270131T121500[m
+[32m+[m[32mDTEND:20270131T141500[m
+[32m+[m[32mSUMMARY:JUVENTUS, A.C. "B" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270214T170000[m
+[32m+[m[32mDTEND:20270214T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs MASNOU AT. "B"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270220T160000[m
+[32m+[m[32mDTEND:20270220T180000[m
+[32m+[m[32mSUMMARY:VILASSAR DALT-GIATSU, C.E. "C" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270228T170000[m
+[32m+[m[32mDTEND:20270228T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs PREMIA CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270307T180000[m
+[32m+[m[32mDTEND:20270307T200000[m
+[32m+[m[32mSUMMARY:MOLINOS, U.D. "B" vs PLA D'EN BOET,CLUB ESP. "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+[m[32mDTSTART:20270314T170000[m
+[32m+[m[32mDTEND:20270314T190000[m
+[32m+[m[32mSUMMARY:PLA D'EN BOET,CLUB ESP. "A" vs CERDANYOLA MATARO ASSOC.ESP.LL  "A"[m
+[32m+[m[32mEND:VEVENT[m
+[32m+[m[32mBEGIN:VEVENT[m
+[32m+
