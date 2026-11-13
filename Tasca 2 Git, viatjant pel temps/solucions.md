@@ -22,11 +22,11 @@ network:
 
 **Evidències:**
 
-![Configuració inicial del fitxer de xarxa](img/4.png)
+![Configuració inicial del fitxer de xarxa](IMG/4.png/4.png)
 
 La captura 3 mostra l'historial gràfic de Git Graph. En aquest moment es veu un únic commit, amb el fitxer `README.md` i un altre fitxer anomenat `partits.ics`.
 
-![Historial gràfic inicial i contingut del commit](img/3.png)
+![Historial gràfic inicial i contingut del commit](IMG/3.png/3.png)
 
 ## 2. Consulta de l'historial
 
@@ -39,11 +39,11 @@ git log --oneline
 
 La captura 1 mostra la sortida de `git log`, amb el commit `8a94ce408fd356715eccb059c9d9cc4ffe745e36`, l'autor i la data.
 
-![Sortida de git log](img/1.png)
+![Sortida de git log](IMG/1.pngmg/1.png)
 
 La captura 2 mostra la sortida resumida de `git log --oneline`.
 
-![Sortida de git log --oneline](img/2.png)
+![Sortida de git log --oneline](IMG/2.pngmg/2.png)
 
 També es disposa de la captura de Git Graph, que permet veure el commit i els fitxers associats. La captura 3 inclou, a més, la sortida de terminal amb informació detallada del commit i el diff de `README.md`.
 
@@ -57,11 +57,11 @@ git status
 
 El resultat indica que la branca `main` està sincronitzada amb `origin/main`, però hi ha un fitxer no rastrejat anomenat `tatus`. Per tant, en aquell moment el directori de treball no estava completament net.
 
-![Estat del repositori amb un fitxer no rastrejat](img/5.png)
+![Estat del repositori amb un fitxer no rastrejat](IMG/5.pngg/5.png)
 
 La captura 6 mostra el panell *Source Control* de VS Code amb dos canvis detectats: `00-installer-config.yaml` i `tatus`.
 
-![Canvis detectats a Source Control](img/6.png)
+![Canvis detectats a Source Control](IMG/6.pngmg/6.png)
 
 ## 4. Configuració d'una IP estàtica
 
@@ -82,15 +82,15 @@ network:
         addresses: [192.168.1.1]
 ```
 
-![Configuració IP estàtica de la interfície enps03](img/7.png)
+![Configuració IP estàtica de la interfície enps03](IMG/7.pngg/7.png)
 
 A la captura 8 es veu una ordre de commit amb el missatge `feat: configura ip estatica a enps03`. La sortida indica que s'ha creat un fitxer anomenat `tatus` amb 184 insercions. Cal revisar el nom del fitxer, ja que no coincideix amb `00-installer-config.yaml`.
 
-![Creació del commit de configuració IP estàtica](img/8.png)
+![Creació del commit de configuració IP estàtica](IMG/8.pngg/8.png)
 
 La captura 9 mostra l'historial resumit amb dos commits: el commit `eaca969` (`feat: configura ip estatica a enps03`) i el commit anterior `8a94ce4`.
 
-![Historial després del commit de configuració IP](img/9.png)
+![Historial després del commit de configuració IP](IMG/9.pngg/9.png)
 
 ## 5. Intent de crear els commits següents
 
@@ -103,7 +103,7 @@ git commit -m "feat: actualitza servidor DNS de enps03"
 
 La sortida indica `nothing to commit, working tree clean` en aquests intents. Això vol dir que Git no va detectar canvis nous preparats per desar en aquests commits. Per tant, les captures facilitades no acrediten que s'hagin creat aquests dos commits.
 
-![Intents de crear els commits de la segona interfície i del DNS](img/11.png)
+![Intents de crear els commits de la segona interfície i del DNS](IMG/11.pngmg/11.png)
 
 La captura 10 mostra el contingut del fitxer amb el servidor DNS `8.8.8.8` configurat a `enps03`:
 
@@ -122,7 +122,7 @@ network:
         addresses: [8.8.8.8]
 ```
 
-![Configuració DNS amb 8.8.8.8](img/10.png)
+![Configuració DNS amb 8.8.8.8](IMG/10.pngg/10.png)
 
 Tot i que es veu el contingut del DNS modificat, no hi ha una evidència que confirmi un commit nou amb aquest canvi.
 
